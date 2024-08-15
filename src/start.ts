@@ -9,7 +9,7 @@ const server = createServer(requestListener);
 startDI();
 
 server.listen(3010, '0.0.0.0', () => {
-  console.log('Сервер запущен');
+  console.log('The server is running');
 });
 
 server.on('close', () => {
